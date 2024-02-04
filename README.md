@@ -20,16 +20,16 @@ promoting efficiency and adaptability to new challenges..
 |Elasticsearch|Grafana|Data mining|Continuous integration CI/CD|W11 macOS UN*X|
 
 ## Experience
-- **Linio - Falabella** - FullStack Web Developer/Data analyst - Finanzas (May/2021 - Dec/2023)
+- **Linio - Falabella** - FullStack Web Developer/Data analyst - Finanzas (Jun/2021 - Dec/2023)
   - Management and optimization of the billing system for operations in Mexico, Chile and Colombia, ensuring its constant updating and compliance with local and international standards.
 
-- **Element** - FullStack Web Developer - TI (Mes/Año - Mes/Año)
+- **Element** - FullStack Web Developer - TI (May/2015 - Apr/2021)
   - Responsible for the conceptualization, development and implementation of new marketing projects, including continuous maintenance and deployment management in web environments and applications, applying DevOps practices to optimize collaboration and operational efficiency.
 
-- **KTC** - FullStack Web Developer - TI (May/2021 - Dec/2023)
+- **KTC** - FullStack Web Developer - TI (Feb/2015 - May/2015)
   - Design and development of marketing-oriented web projects, with a strategic focus on maximizing engagement and user conversion.
 
-- **El Economista (newspaper)** - Web Admin - TI (May/2021 - Dec/2023)
+- **El Economista (newspaper)** - Web Admin - TI (Jan/2014 - Feb/2015)
   - Management and administration of server infrastructure for hosting web pages, ensuring optimal performance, security and availability.
 
 ## Education
