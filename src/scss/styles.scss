@@ -1,0 +1,201 @@
+$enable-gradients: true;
+$enable-shadows: true;
+
+$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+
+@import "bootstrap/scss/functions";
+
+$body-color: #333;
+$body-bg: #fff;
+$border-radius: .4rem;
+$success: #7952b3;
+
+// Required
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+
+// @import "bootstrap/scss/type";
+// @import "bootstrap/scss/images";
+// @import "bootstrap/scss/tables";
+// @import "bootstrap/scss/forms";
+// @import "bootstrap/scss/buttons";
+// @import "bootstrap/scss/transitions";
+// @import "bootstrap/scss/dropdown";
+// @import "bootstrap/scss/button-group";
+// @import "bootstrap/scss/nav";
+// @import "bootstrap/scss/navbar"; // Requires nav
+// @import "bootstrap/scss/card";
+// @import "bootstrap/scss/breadcrumb";
+// @import "bootstrap/scss/accordion";
+// @import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/badge";
+// @import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/list-group";
+// @import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+// @import "bootstrap/scss/modal"; // Requires transitions
+// @import "bootstrap/scss/tooltip";
+// @import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+// @import "bootstrap/scss/offcanvas"; // Requires transitions
+// @import "bootstrap/scss/placeholders";
+// Helpers
+// @import "bootstrap/scss/helpers";
+
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/utilities/api";
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+@include media-breakpoint-up(lg) {
+  .container-fluid {
+    max-width: 950px;
+  }
+}
+
+body {
+  font-family: Georgia;
+  color: #333;
+
+  .name{
+    // font-size: 48px;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .job{
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+  a{
+    text-decoration: none;
+  }
+  .mail,.tel{
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .pdf{
+    display: block;
+    background: #666;
+    color: #fff;
+  }
+  .container-fluid {
+    background: #f5f5f5;
+    border: solid #666;
+    border-width: 8px 0 2px 0;
+  }
+  .title{
+    font-style: italic;
+    font-weight: normal;
+    font-family: Georgia;
+    font-size: 18px;
+  }
+  .value{
+    color: #444;
+  }
+  .skill-title{
+    color: #333;
+    font-weight: normal;
+    font-family: Georgia;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .skill-val{
+    font-size: 12px;
+    color: #444;
+    
+  }
+  .tech{
+    font-size: 12px;
+    color: #444;
+
+  }
+  .exp-title{
+    font-size: 22px;
+  }
+  .exp-sub{
+    font-size: 18px;
+    color: #6e6e6e;
+  }
+  .exp-res{
+    font-size: 12px;
+    color: #444;
+  }
+  .links{
+    a{
+      margin: 0 10px;
+    }
+    i {
+      color:#444;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  body{
+    .name{
+      font-size: 48px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    .job{
+      font-size: 24px;
+      letter-spacing: 2px;
+      font-style: italic;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  body{
+    .name{
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    .job{
+      font-size: 12px;
+      letter-spacing: 2px;
+      font-style: italic;
+    }
+  }
+}
+
+@media print {
+  @page {
+    size: Letter;
+    margin: 15mm;
+  }
+  body, .container-fluid{
+    padding: 0;
+    margin: 0 !important;
+    color: #000;
+    background-color: #fff;
+    border: 0 !important;
+  }
+  hr{
+    margin: 0 !important;
+  }
+  header, footer, nav, .no-print, .links{
+    display: none;
+  }
+  hr {
+    color: #fff;
+  }
+  .job-block{
+    page-break-inside: avoid;
+  }
+}
